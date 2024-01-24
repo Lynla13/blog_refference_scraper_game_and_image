@@ -1,0 +1,33 @@
+{
+  "name": "blog_refference_scraper_game_and_image",
+  "description": "- Tạo một trang hỗ trợ tìm lưu chữ ảnh , game , blog\r - Phân loại ảnh, blog, Game \r - Hỗ trợ tạo profello\r - Cho phép đăng ảnh\r - Tự động gom ảnh từ các nguồn khác\r - 1 người dùng\r - Typescript và docker\r - Cho phép chạy online và offline, cho tải ảnh truyện và game về",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node ./src/server.ts",
+    "start": "nodemon ./dist/server.js",
+    "prod": "npm run build && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lynla13/blog_refference_scraper_game_and_image.git"
+  },
+  "author": "Lynla_13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lynla13/blog_refference_scraper_game_and_image/issues"
+  },
+  "homepage": "https://github.com/Lynla13/blog_refference_scraper_game_and_image#readme",
+  "dependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.8",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mariadb": "^3.2.3",
+    "nodemon": "^3.0.3",
+    "puppeteer": "^21.7.0"
+  }
+}
