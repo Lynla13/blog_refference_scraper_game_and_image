@@ -8,8 +8,9 @@
 - Cho phép chạy online và offline, cho tải ảnh truyện và game về
 
 - Day 1 : 
-    + Cấu hình theo typescript : npm install tsc -g
-    + Hoàn tành kết nối database
-    + KHởi chạy hello world
-    + Cấu hình container
+    + Cấu hình theo typescript 
     + Cấu hình Git 
+- Day 2: 
+    + Cấu hình container
+    + Hello world
+    + Hoàn thành kết nối databse
